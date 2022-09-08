@@ -112,6 +112,7 @@ main .row{
 }
 .user_view img{
     height: 100px;
+    width: 135px;
 }
 
 .user.name {
