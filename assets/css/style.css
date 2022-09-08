@@ -1,33 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* #region debug */
-.debug header {
-    background-color: #4A4A4A;
-    border: 1px solid white;
-}
+.debug .user_view{
+    background-color: #FFFFFF;
 
-
-
-.debug main .user_view {
-    background-color: aqua;
-    height: 4rem;
-    border: 1px solid;
-
-}
-
-.debug .user.name {
-    background-color: blueviolet;
-    width: 45%;
-}
-
-.debug .col_4{
-    background-color: #000000;
-    height: 1rem;
-    border: 1px solid white;
 }
 
 /* #endregion debug */
@@ -66,52 +40,63 @@
 .col_4{
     width: calc((100% / 12)*4);
 }
+
+.row{
+    display: flex;
+}
 /* #endregion utility */
 
 /* #region common */
-
-/* #endregion common */
-.container_fluid .row{
-    display: flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+img{
+    max-width: 100%;
+}
+/* #endregion common */
 
 
 
 /* #region header */
 header {
     height: 15vh;
+    background-color: var(--z-dark);
+    color: white;
 }
 
 /* #endregion header */
 
 /* #region main */
 main{
-    position: relative;
-    background-color: var(--z-danger);
-
+    background-color: var(--z-dark);
 }
-
-main .user {
-    width: calc(100% / 7);
-    float: left;
-    padding: 3px;
+main .row{
+    margin-left: -0.25rem;
+    flex-wrap: wrap;
+    padding-bottom: 4%;
 }
-
-.user_view {
+.user_view{
     position: relative;
+    padding-left: 0.25rem;
+    padding-top: 0.25rem;
+}
+.user_view img{
+    height: 100%;
 }
 
 .user.name {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 0.5rem;
+    font-size: 0.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.350);
 }
 
 /* #endregion main */
 
 /* #region footer */
-footer .row{
-    display: flex;
-}
+
 /* #endregion footer */
