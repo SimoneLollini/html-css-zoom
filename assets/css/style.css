@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #region utility */
+:root {
+    --z-dark: #000000;
+    --z-dark-light: #222222;
+    --z-dark-lighter: #4A4A4A;
+    --z-active: #4BC800;
+    --z-danger: #FF0000;
+    --z-light: #FFFFFF;
+
+
+}
+
+.clearfix {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/* #endregion utility */
+
+/* #region common */
+
+/* #endregion common */
+
+
+/* #region header */
+
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
